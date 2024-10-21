@@ -1,0 +1,79 @@
+.card{
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px lightblue;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: brown
+
+}
+
+.card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color:violet
+}
+
+.button{
+  background-color: lightseagreen;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.welcome-message{
+  font-size: 2.5em;
+  background-color: green;
+  color :white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt{
+  font-size: 2.5em;
+  background-color: red;
+  color :white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color : wheat;
+  margin:10px ;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: seagreen;
+}
+.list-item li{
+  font-size: 2em;
+  list-style: none;
+  color : lightblue;
+  text-align: center;
+  margin: 0;
+}
+.list li:hover{
+  color : darkblue;
+  cursor: pointer;
+}
