@@ -7,9 +7,19 @@ import Card from './Card'
 import Button from './Button'
 import UserGreeting from './UserGreeting'
 import Lists from './Lists'
+import UseStateEx from './UseState'
+import EventHandlerEx from './EventHandlerEx'
+import UpdaterFunction from './UpdaterFunction'
+import ObjectUpdate from './ObjectUpdate'
+import ArrayState from './ArrayState'
+import Todolist from './Todolist'
+import UseEffectExample from './UseEffectExample'
+import UseEffectPractical from './UseEffectPractical'
+import DigitalClock from './DigitalClock'
 function App() {
   const fruits = [{id : 1, name: "Apples", calories: 95}, {id : 2, name: "Oranges", calories: 75}, {id : 3, name: "bananas", calories: 115}, {id : 4, name: "Coconuts", calories: 165}]
   const vegetables = [{id : 6, name: "Carrots", calories: 25}, {id : 7, name: "Corns", calories: 65}, {id : 8, name: "Potatoes", calories: 115}, {id : 9, name: "Brocoli", calories: 165}]
+
   return (
     <>
       <h1>Hello world!!!</h1>
@@ -33,8 +43,17 @@ function App() {
 
 
       {fruits.length > 0 && <Lists items={fruits} category="fruits"/>}
-      {vegetables.length > 0 && <Lists items={vegetables} category="vegetables"/>}*/}
+      {vegetables.length > 0 && <Lists items={vegetables} category="vegetables"/>}*
       <Button/>
+      <UseStateEx/>
+      <EventHandlerEx/>
+      <UpdaterFunction/>
+      <ObjectUpdate/>
+      <ArrayState/>
+      <Todolist/>
+      <UseEffectExample/>
+      <UseEffectPractical/>*/}
+      <DigitalClock/>
       <Footer/>
     </>
   )
