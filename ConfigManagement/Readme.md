@@ -1,4 +1,4 @@
-# Example on creating a DLL and consuming it Web API with Configs taken from Web API
+# Example on creating a DLL and consuming it Web API with Config sections taken from Web API
 ### 1. **Define the Configuration POCO in the DLL**
 Create a POCO class in your library that matches the configuration section:
 
