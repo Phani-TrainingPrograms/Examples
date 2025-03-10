@@ -1,0 +1,19 @@
+<h1>List of Owners with Us</h1>
+<!-- <p>
+    {{owners | json}}
+</p> -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" *ngFor="let rec of owners">
+            <div>
+                <h2>{{rec.ownerName}}</h2>
+                <hr>
+                <p>{{rec.ownerPhone}}</p>
+                <p>
+                    <a class="btn btn-primary" routerLink="/view/{{rec.ownerId}}">Edit</a>
+                    <a class="btn btn-danger">Delete</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

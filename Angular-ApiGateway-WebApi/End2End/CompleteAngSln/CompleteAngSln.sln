@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwnerApi", "OwnerApi\OwnerApi.csproj", "{F4CCF1B3-7321-4B2F-A46C-2596A8F3ADFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{ADEAEAAC-D672-41FD-8C65-4DAB95C45256}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4CCF1B3-7321-4B2F-A46C-2596A8F3ADFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4CCF1B3-7321-4B2F-A46C-2596A8F3ADFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4CCF1B3-7321-4B2F-A46C-2596A8F3ADFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4CCF1B3-7321-4B2F-A46C-2596A8F3ADFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEAEAAC-D672-41FD-8C65-4DAB95C45256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEAEAAC-D672-41FD-8C65-4DAB95C45256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEAEAAC-D672-41FD-8C65-4DAB95C45256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEAEAAC-D672-41FD-8C65-4DAB95C45256}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8448449-FB0A-44B8-93DD-00AAB20A88C3}
+	EndGlobalSection
+EndGlobal

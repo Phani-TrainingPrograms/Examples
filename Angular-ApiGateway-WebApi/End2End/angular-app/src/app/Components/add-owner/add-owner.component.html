@@ -1,0 +1,26 @@
+<p>{{newOwner | json}}</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <p>
+                OwnerId:
+                <input class="form-control" [(ngModel)] ="newOwner.ownerId">
+            </p>
+            <p>
+                OwnerName:
+                <input class="form-control" [(ngModel)] ="newOwner.ownerName">
+            </p>
+            <p>
+                Owner Phone:
+                <input class="form-control" [(ngModel)] ="newOwner.ownerPhone">
+            </p>
+            <p>
+                Owner Email:
+                <input class="form-control" [(ngModel)] ="newOwner.ownerEmail">
+            </p>
+            <p>
+                <button class="btn btn-information" (click)="onSave()">Save Changes</button>
+            </p>
+        </div>
+    </div>
+</div>
